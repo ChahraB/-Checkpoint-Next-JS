@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Projet dashboard">
+  <rect width="640" height="400" fill="#1a2332"/>
+  <polyline points="80,280 160,200 240,240 320,120 400,180 480,100 560,160" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <rect x="100" y="80" width="440" height="40" rx="8" fill="#2d3a4f"/>
+  <text x="320" y="360" text-anchor="middle" fill="#e8edf4" font-family="Segoe UI, sans-serif" font-size="22" font-weight="600">Dashboard</text>
+</svg>

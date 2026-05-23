@@ -1,0 +1,52 @@
+.content {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.photo {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow);
+}
+
+.bio {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  white-space: pre-line;
+}
+
+.facts {
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.fact {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.factLabel {
+  font-weight: 600;
+  min-width: 100px;
+  color: var(--color-text);
+}
+
+.factValue {
+  color: var(--color-text-muted);
+}
